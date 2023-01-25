@@ -10,5 +10,5 @@ function otraFuncion () {
 
 function cuidadoConElReturn (nombre) {
     return nombre;
-    console.log(nombre);
+    console.log(nombre); // No se ejecutara nunca ya que el return finaliza el codigo de la funcion
 }
